@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>House of the Best Food</title>
+</head>
+<body class="root">
+
+    <header class="header">
+        <img src="img/LOGO (1).svg" alt="img" class="header__icon">
+        <nav class="navigation navigation--header">
+            <ul class="list navigation__list">
+                <li class="list-item navigation__list-item">
+                    <a href="#title-page" class="navigation__item-link"><span class="navigation__item-span">Главная</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#menu" class="navigation__item-link"><span class="navigation__item-span">Меню</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#history" class="navigation__item-link"><span class="navigation__item-span">О нас</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#ordering" class="navigation__item-link"><span class="navigation__item-span">Бронь</span></a>
+                </li>
+                <li class="list-item navigation__list-item">
+                    <a href="#dishes" class="navigation__item-link"><span class="navigation__item-span">Магазин</span></a>
+                </li>
+            </ul>
+            <address class="address navigation__address--header">
+                <a href="tel:+9998887654" class="address__telephone address__telephone--header"><img src="img/phone-receiver.png" alt="Какая-то трубка" class="address__telephone-icon"> +999-888-76-54</a>
+                <p class="address__description address__description--header">Свяжитесь с нами для бронирования</p>
+            </address>
+            <button class="btn navigation__btn">Заказ столика</button>
+        </nav>
+        <div class="menu-burger">
+            <input type="checkbox" class="menu-burger__checkbox" id="burger-button">
+            <label for="burger-button" class="menu-burger__label"></label>
+            <span class="menu-burger__span menu-burger__span--first"></span>
+            <span class="menu-burger__span menu-burger__span--second"></span>
+            <span class="menu-burger__span menu-burger__span--third"></span>
+            <span class="menu-burger__span menu-burger__span--fourth"></span>
+            <nav class="navigation menu-burger__navigation">
+                <ul class="list navigation__list menu-burger__list">
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#title-page" class="navigation__item-link">
+                            <img src="img/cart.png" alt="icon" class="menu-burger__item-img"><span class="menu-burger__item-span">Главная</span>
+                        </a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#menu" class="navigation__item-link">
+                            <img src="img/cart.png" alt="icon" class="menu-burger__item-img"><span class="menu-burger__item-span">Меню</span>
+                        </a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#history" class="navigation__item-link">
+                            <img src="img/cart.png" alt="icon" class="menu-burger__item-img"><span class="menu-burger__item-span">О нас</span>
+                        </a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#ordering" class="navigation__item-link">
+                            <img src="img/cart.png" alt="icon" class="menu-burger__item-img"><span class="menu-burger__item-span">Бронь</span>
+                        </a>
+                    </li>
+                    <li class="list-item navigation__list-item menu-burger__list-item">
+                        <a href="#dishes" class="navigation__item-link">
+                            <img src="img/cart.png" alt="icon" class="menu-burger__item-img"><span class="menu-burger__item-span">Магазин</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="content">
+
+        <section class="title-page" id="title-page">
+            <div class="title-page__cover">
+                <div class="title-page__cover-title">
+                    <h1 class="title title-page__title">
+                        Добро пожаловать в
+                        <span class="title title-page__title--span">Наш ресторан</span>
+                    </h1>
+                </div>
+                <div class="title-page__cover-title--mobile">
+                    <h1 class="title title-page__title">Добро пожаловать
+                        <span class="title title-page__title--span">В наш ресторан</span>
+                    </h1>
+                </div>
+                <div class="subtitle-cover">
+                    <span class="title-page__line"></span>
+                    <h2 class="subtitle title-page__subtitle">Дом лучшей еды</h2>
+                    <span class="title-page__line"></span>
+                </div>
+                <button class="btn title-page__btn">Посмотреть меню</button>
+            </div>
+            <ul class="list title-page__list">
+                <li class="list-item title-page__list-item">
+                    <figure class="item-figure title-page__item-figure">
+                        <img src="img/hot-dish.png" alt="dishes" class="figure-img title-page__figure-img">
+                        <figcaption class="figure-figcaption  title-page__figure-figcaption">Магическая <span class="figcaption-span title-page__figcaption-span">Атмосфера</span></figcaption>
+                    </figure>
+                    <p class="item-description">В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
+                </li>
+                <li class="list-item title-page__list-item">
+                    <figure class="item-figure title-page__item-figure">
+                        <img src="img/hot-dish.png" alt="dishes" class="figure-img title-page__figure-img">
+                        <figcaption class="figure-figcaption title-page__figure-figcaption">Лучшее качество <span class="figcaption-span title-page__figcaption-span">Еды</span></figcaption>
+                    </figure>
+                    <p class="item-description">Качество нашей 
+                        Еды - отменное!
+                        </p>
+                </li>
+                <li class="list-item title-page__list-item">
+                    <figure class="item-figure title-page__item-figure">
+                        <img src="img/hot-dish.png" alt="dishes" class="figure-img title-page__figure-img">
+                        <figcaption class="figure-figcaption title-page__figure-figcaption">Недорогая <span class="figcaption-span title-page__figcaption-span">Еда</span></figcaption>
+                    </figure>
+                    <p class="item-description">Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!</p>
+                </li>
+            </ul>
+        </section>
+       
+        <section class="history" id="history">
+            <div class="history__cover--text">
+                <h2 class="title history__title"><span class="title-span">Наша</span> История</h2>
+                <p class="text history__text">Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.</p>
+                <ul class="list history__list">
+                    <li class="list-item history__list-item">
+                        <p class="history__item-count">93</p>
+                        <p class="history__item-text">Напитки</p>
+                    </li>
+                    <li class="list-item history__list-item">
+                        <p class="history__item-count">206</p>
+                        <p class="history__item-text">Еда</p>
+                    </li>
+                    <li class="list-item history__list-item">
+                        <p class="history__item-count">71</p>
+                        <p class="history__item-text">Закуски</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="history__cover--img">
+                <img src="img/history-cover__img-1.png" alt="fon" class="cover__img-1">
+                <img src="img/history-cover__img-2.svg" alt="fon" class="cover__img-2">
+                <img src="img/history-cover__img-3.svg" alt="fon" class="cover__img-3">
+                <img src="img/history-cover__img-4.svg" alt="fon" class="cover__img-4">
+            </div>
+        </section>
+
+        <section class="ordering" id="ordering">
+            <div class="ordering__cover">
+                <div class="ordering__cover-text">
+                    <h2 class="title ordering__title">Отпразднуйте в одном из самых лучших ресторанов.</h2>
+                    <p class="text ordering__text">Только в этом месяце бизнес-ланч от 250 ₽</p>
+                </div>
+                <button class="btn ordering__btn">Заказ столика</button>
+            </div>
+        </section>
+
+        <section class="dishes" id="dishes">
+            <h3 class="title dishes__title"><span class="title-span">Наши</span> Блюда</h3>
+            <div class="dishes__cover">
+                <div title="dishes" class="dishes__cover-img"></div>
+                <ul class="list dishes__list">
+                    <li class="list-item dishes__list-item">
+                        <figure class="item-figure dishes__item-figure">
+                            <img src="img/dishes__hamburger.png" alt="dishes" class="figure-img dishes__figure-img">
+                            <figcaption class="figure-figcaption dishes__figure-figcaption">
+                                <p class="text dishes__figcaption-text">Гамбургер мини</p>
+                                <span class="figcaption-dash dishes__figcaption-dash"></span>
+                                <span class="figcaption-price dishes__figcaption-price">220&#8381;</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="list-item dishes__list-item">
+                        <figure class="item-figure dishes__item-figure">
+                            <img src="img/dishes__hamburger.png" alt="dishes" class="figure-img dishes__figure-img">
+                            <figcaption class="figure-figcaption dishes__figure-figcaption">
+                                <p class="text dishes__figcaption-text">Гамбургер мини</p>
+                                <span class="figcaption-dash dishes__figcaption-dash"></span>
+                                <span class="figcaption-price dishes__figcaption-price">220&#8381;</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="list-item dishes__list-item">
+                        <figure class="item-figure dishes__item-figure">
+                            <img src="img/dishes__hamburger.png" alt="dishes" class="figure-img dishes__figure-img">
+                            <figcaption class="figure-figcap tion dishes__figure-figcaption">
+                                <p class="text dishes__figcaption-text">Гамбургер мини</p>
+                                <span class="figcaption-dash dishes__figcaption-dash"></span>
+                                <span class="figcaption-price dishes__figcaption-price">220&#8381;</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <h3 class="title menu__title">Наше Меню</h3>
+            <button class="menu__btn menu__btn--prev"></button>
+            <div class="menu__slider-cover">
+                <ul class="list menu__list">
+                    <li class="list-item menu__list-item">
+                        <span class="span-chosen">Рекомендуемое</span>
+                        <figure class="menu__item-figure menu__item-figure--chosen">
+                            <img src="img/menu__hamburger.svg" alt="dishes" class="figure-img menu__figure-img">
+                            <span class="menu__figure-price">420</span>
+                            <figcaption class="figure-figcaption menu__figure-figcaption">Гамбургер макси</figcaption>
+                        </figure>
+                        <p class="text menu__item-text">Максимально толстый слой мяса</p>
+                        <button class="btn menu__item-btn">Заказать</button>
+                    </li>
+                    <li class="list-item menu__list-item">
+                        <span class="menu__span"></span>
+                        <figure class="menu__item-figure menu__item-figure">
+                            <img src="img/menu__hamburger.svg" alt="dishes" class="figure-img menu__figure-img">
+                            <span class="menu__figure-price">420</span>
+                            <figcaption class="figure-figcaption menu__figure-figcaption">Гамбургер макси</figcaption>
+                        </figure>
+                        <p class="text menu__item-text">Максимально толстый слой мяса</p>
+                        <button class="btn menu__item-btn">Заказать</button>
+                    </li>
+                    <li class="list-item menu__list-item">
+                        <span class="menu__span"></span>
+                        <figure class="menu__item-figure menu__item-figure">
+                            <img src="img/menu__hamburger.svg" alt="dishes" class="figure-img menu__figure-img">
+                            <span class="menu__figure-price">420</span>
+                            <figcaption class="figure-figcaption menu__figure-figcaption">Гамбургер макси</figcaption>
+                        </figure>
+                        <p class="text menu__item-text">Максимально толстый слой мяса</p>
+                        <button class="btn menu__item-btn">Заказать</button>
+                    </li>
+                </ul>
+            </div>
+            <button class="menu__btn menu__btn--next"></button>
+            <div class="menu__bg-image"></div>
+        </section>
+       
+        <section class="reviews">
+            <blockquote class="blockquote reviews__blockquote">
+                <p class="text reviews__blockquote-text">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</p>
+            </blockquote>
+            <figure class="figure reviews__figure">
+                <img src="img/man.svg" alt="man" class="figure-img reviews__figure-img">
+                <figcaption class="figure-text reviews__figure-text">Посетитель</figcaption>
+            </figure>
+            <span class="span-name">Николай</span>
+            <div class="reviews__pagination-cover">
+                <span class="reviews__pagination reviews__pagination--active"></span>
+                <span class="reviews__pagination"></span>
+                <span class="reviews__pagination"></span>
+            </div>
+        </section>
+
+</body>
+</html>
